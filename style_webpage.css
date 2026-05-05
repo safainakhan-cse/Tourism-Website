@@ -1,0 +1,306 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7fa;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Navigation Bar (Header) */
+header {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 15px 20px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+header ul li {
+    margin: 0 15px;
+}
+
+header ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 5px 0;
+    transition: color 0.3s;
+}
+
+header ul li a:hover {
+    color: #ffd700;
+}
+
+/* Home Section */
+#home-section {
+    background-image: url('images/download.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+#home-section h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+    color: #eoffff;
+    font-family: 'Georgia', serif;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
+}
+
+#home-section p {
+    font-size: 30px;
+    margin-bottom: 30px;
+    color: #191970;
+    font-family: 'Times New Roman', serif;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
+}
+
+#home-section .tagline {
+    font-style: italic;
+    font-size: 25px;
+    color: #eee8aa;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+/* Destination Section */
+#destination-section {
+    padding: 50px 20px;
+    background-color: #e6f2ff; 
+    color: #003366;
+    text-align: center;
+}
+
+#destination-section h1 {
+    font-size: 36px;
+    color: #004080;
+    margin-bottom: 30px;
+}
+
+#destination-section .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+#destination-section .card {
+    width: 300px;
+    border: 1px solid #cce0ff;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 50, 0.1);
+    text-align: center;
+}
+
+#destination-section .card img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+#destination-section .card h2 {
+    font-size: 24px;
+    color: #003366;
+    margin: 15px 0;
+}
+
+#destination-section .card p {
+    padding: 0 10px 20px;
+    color: #336699;
+}
+
+/* Packages Section */
+#packages-section {
+    padding: 50px 20px;
+    background-color: #e0f7ff;
+    text-align: center;
+}
+
+#packages-section h1 {
+    font-size: 36px;
+    color: #004080;
+    margin-bottom: 30px;
+}
+
+#packages-section .card {
+    background-color: #b3d9ff;
+    color: #003366;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px auto;
+    width: 600px;
+    box-shadow: 0 4px 8px rgba(0, 0, 50, 0.1);
+    text-align: center;
+}
+
+/* Visa Section */
+#visa-section {
+    padding: 90px 20px;
+    background-color: #e6f2ff;
+    text-align: center;
+}
+
+#visa-section h1 {
+    font-size: 36px;
+    color: #004080;
+    margin-bottom: 30px;
+}
+
+#visa-section .info-card {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 50, 0.1);
+    width: 600px;
+    text-align: center;
+}
+
+#visa-section .info-card h2 {
+    font-size: 24px;
+    color: #003366;
+    margin-bottom: 15px;
+}
+
+#visa-section .info-card p {
+    color: #336699;
+}
+
+/* Things to Do Section */
+#thingstodo-section {
+    padding: 78px 20px;
+    background-color: #e6f2ff;
+    text-align: center;
+}
+
+#thingstodo-section h1 {
+    font-size: 36px;
+    color: #004080;
+    margin-bottom: 30px;
+}
+
+#thingstodo-section .info-card {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 50, 0.1);
+    width: 600px;
+    text-align: center;
+}
+
+#thingstodo-section .info-card h2 {
+    font-size: 24px;
+    color: #003366;
+    margin-bottom: 15px;
+}
+
+#thingstodo-section .info-card p {
+    color: #336699;
+}
+
+/* Gallery Section */
+#gallery-section {
+    padding: 50px 20px;
+    background-color: #f0f8ff;
+    text-align: center;
+}
+
+#gallery-section h1 {
+    font-size: 36px;
+    color: #004080;
+	margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+#gallery-section .gallery-images {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+#gallery-section .gallery-images img {
+    width: 300px;
+    height: 600px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+/* Contact Section */
+#contact-section {
+    padding: 50px 20px;
+    background-color: #e6f2ff;
+    text-align: center;
+}
+
+#contact-section h1 {
+    font-size: 36px;
+    color: #004080;
+	margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+#contact-section form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 50, 0.1);
+}
+
+#contact-section form label {
+    font-size: 18px;
+    color: #003366;
+    margin-bottom: 10px;
+    display: block;
+}
+
+#contact-section form input, 
+#contact-section form textarea, 
+#contact-section form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border: 1px solid #cce0ff;
+}
+
+#contact-section form button {
+    padding: 10px 20px;
+    background-color: #003366;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#contact-section form button:hover {
+    background-color: #ffcc00;
+    transition: background-color 0.3s ease;
+}
